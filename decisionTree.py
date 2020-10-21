@@ -5,6 +5,8 @@ Created on Mon Apr 29 14:59:05 2019
 
 @author: saul
 """
+# Compare Linear Regression with Decision Tree Regressor
+
 import numpy as np
 import mglearn
 from sklearn.linear_model import LinearRegression
