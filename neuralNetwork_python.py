@@ -6,6 +6,8 @@ Created on Sat Apr 27 08:21:46 2019
 @author: saul
 """
 #Build an neutal network from scratch 
+#with autograd
+
 import autograd.numpy as np
 import autograd.numpy.random as npr
 
