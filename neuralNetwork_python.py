@@ -19,7 +19,7 @@ examples = 1000
 features = 100
 D = (npr.randn(examples, features), npr.randn(examples)) 
 
-layer1_units = 10
+layer1_units = 10 #number of nodes in layer1
 layer2_units = 1
 w1 = npr.rand(features, layer1_units)
 print((w1[1:2]))
