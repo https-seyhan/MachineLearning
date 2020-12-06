@@ -34,16 +34,6 @@ X_cat = mergedata.select_dtypes(include=['object'])
 X_enc = X_cat.copy()
 
 
-#ONEHOT ENCODING BLOCK
-
-#X_enc = pd.get_dummies(X_enc, columns=['sex','region','smoker'])
-#print("X_enc :", X_enc)
-
-#X_enc.to_csv('encoded.csv')
-#mergedata = mergedata.drop(['sex','region','smoker'],axis=1)
-
-#END ENCODING BLOCK
-
 #=============================================================================
 # #LABEL ENCODING BLOCK
 # 
