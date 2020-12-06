@@ -37,7 +37,7 @@ X_enc = X_cat.copy()
 #=============================================================================
 # #LABEL ENCODING BLOCK
 # 
-X_enc = X_enc.apply(LabelEncoder().fit_transform) #
+X_enc = X_enc.apply(LabelEncoder().fit_transform) # Encode target labels with value between 0 and n_classes-1.
 
 #print("X_enc :", X_enc)
 
