@@ -23,7 +23,7 @@ print(data.columns)
 testdata = pd.read_csv('insurance_test.csv')
 
 
-mergedata = data.append(testdata)
+mergedata = data.append(testdata) # Append testdata to insurance data
 testcount = len(testdata)
 #print("Test Count :", testcount)
 count = len(mergedata)-testcount
