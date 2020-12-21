@@ -9,7 +9,7 @@
 import numpy as np
 import mglearn
 from sklearn.linear_model import LinearRegression
-from sklearn.tree import DecisionTreeRegressor
+from sklearn.tree import DecisionTreeRegressor # decision tree regressor
 from matplotlib import pyplot as plt
 
 
