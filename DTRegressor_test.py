@@ -32,7 +32,6 @@ dataset = np.array(
 ['MMORPG', 30000, 80000] 
 ]) 
 
-#print(type(dataset))
 
 # select all rows by : and column 1 
 # by 1:2 representing features 
