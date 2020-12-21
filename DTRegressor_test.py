@@ -52,7 +52,6 @@ pred_case = reg.predict([[3750]])
 # print the predicted price 
 print("Predicted price: % d\n"% pred_case)  
 
-
 #Visualize results
 
 X_grid = np.arange(min(X), max(X), 0.01)
