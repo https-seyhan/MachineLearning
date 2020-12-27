@@ -49,7 +49,7 @@ print("Final Data Columns : ", FinalData.columns)
 train = FinalData[:count]
 test = FinalData[count:]
 
-#print(FinalData.columns)
+
 
 trainy = train['charges'].astype('int')
 trainx = train.drop(['charges'], axis=1)
