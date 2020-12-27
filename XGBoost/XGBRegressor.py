@@ -18,7 +18,7 @@ os.chdir('/home/saul/pythonWork/files')
 
 data = pd.read_csv('insurance.csv')
 
-print(data.columns)
+
 
 testdata = pd.read_csv('insurance_test.csv')
 
