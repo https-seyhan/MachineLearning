@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import xgboost
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder # Encode target labels with value between 0 and n_classes-1
 from math import sqrt
 from sklearn.metrics import mean_squared_error
 import os
