@@ -25,7 +25,6 @@ testdata = pd.read_csv('insurance_test.csv')
 
 mergedata = data.append(testdata) # Append testdata to insurance data
 testcount = len(testdata)
-
 count = len(mergedata)-testcount
 X_cat = mergedata.copy()
 
