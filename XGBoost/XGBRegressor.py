@@ -65,7 +65,6 @@ clf.fit(X_train, y_train, eval_metric='logloss')
 #print(evals_result)
 
 y_testpred = clf.predict(X_test)
-
 y_pred = clf.predict(test)
 
 
