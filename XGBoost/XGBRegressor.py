@@ -67,7 +67,6 @@ clf.fit(X_train, y_train, eval_metric='logloss')
 y_testpred = clf.predict(X_test)
 y_pred = clf.predict(test)
 
-
 dftestpred = pd.DataFrame(y_testpred)
 
 dfpred = pd.DataFrame(y_pred)
