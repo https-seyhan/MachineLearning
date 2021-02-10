@@ -13,7 +13,6 @@ from matplotlib import pyplot as plt
 
 X, y = mglearn.datasets.make_wave(n_samples=100)
 
-print(len(X))
 print(len(y))
 
 line = np.linspace(-3, 3, 1000, endpoint=False).reshape(-1,1)   
