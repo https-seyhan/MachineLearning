@@ -11,7 +11,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor # decision tree regressor
 from matplotlib import pyplot as plt
 
-
 X, y = mglearn.datasets.make_wave(n_samples=100)
 
 print(len(X))
