@@ -43,7 +43,6 @@ print(y)
 
 reg = DecisionTreeRegressor(random_state=0)
 print(reg)
-
 reg.fit(X,y)
 
 pred_case = reg.predict([[3750]])
