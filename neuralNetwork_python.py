@@ -66,7 +66,6 @@ for i in range(0, epochs):
         theta = update_theta(theta,delta, 0.01)
         
 rmse.append(sklearn.metrics.mean_squared_error(D[1], neural_network(D[0], theta)))
-
 print("After training RMSE :", sklearn.metrics.mean_squared_error(D[1], neural_network(D[0], theta)))
 
 pylab.plot(rmse)
