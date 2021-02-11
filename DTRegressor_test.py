@@ -51,7 +51,6 @@ pred_case = reg.predict([[3750]])
 print("Predicted price: % d\n"% pred_case)  
 
 #Visualize results
-
 X_grid = np.arange(min(X), max(X), 0.01)
 X_grid = X_grid.reshape((len(X_grid), 1))
 plt.scatter(X, y, color='red')
