@@ -8,7 +8,6 @@
 
 import autograd.numpy as np
 import autograd.numpy.random as npr
-
 from autograd import grad
 import sklearn.metrics
 import pylab
