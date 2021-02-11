@@ -8,10 +8,10 @@
 
 import autograd.numpy as np
 import autograd.numpy.random as npr
-from autograd import grad
+
 import sklearn.metrics
 import pylab
-
+from autograd import grad
 examples = 1000
 features = 100
 D = (npr.randn(examples, features), npr.randn(examples)) 
