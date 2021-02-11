@@ -63,7 +63,6 @@ plt.xlabel('Production Cost')
   
 # specify Y axis label 
 plt.ylabel('Profit') 
-  
 # show the plot 
 plt.show() 
 
