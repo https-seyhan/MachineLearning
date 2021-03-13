@@ -6,11 +6,12 @@
 # Decision Tree Regressor model
 import numpy as np
 import matplotlib.pyplot as plt 
+import pydotplus
 from sklearn.tree import DecisionTreeRegressor  
 from sklearn.tree import export_graphviz
 from subprocess import call
 from IPython.display import Image
-import pydotplus
+
 from subprocess import check_call
 import graphviz
 
