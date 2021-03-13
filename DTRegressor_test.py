@@ -14,7 +14,6 @@ from subprocess import call
 from IPython.display import Image
 from subprocess import check_call
 
-
 dataset = np.array( 
 [['Asset Flip', 100, 1000], 
 ['Text Based', 500, 3000], 
