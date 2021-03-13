@@ -67,7 +67,6 @@ dfpred = pd.DataFrame(y_pred)
 #print(dfpred)
 
 rms = sqrt(mean_squared_error(y_test, y_testpred))
-
 print("RMSE:", rms)
 
 
