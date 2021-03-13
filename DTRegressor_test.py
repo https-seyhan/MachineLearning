@@ -7,12 +7,13 @@
 import numpy as np
 import matplotlib.pyplot as plt 
 import pydotplus
+import graphviz
 from sklearn.tree import DecisionTreeRegressor  
 from sklearn.tree import export_graphviz
 from subprocess import call
 from IPython.display import Image
 from subprocess import check_call
-import graphviz
+
 
 dataset = np.array( 
 [['Asset Flip', 100, 1000], 
