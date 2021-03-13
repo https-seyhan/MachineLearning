@@ -12,7 +12,6 @@ from sklearn.preprocessing import LabelEncoder # Encode target labels with value
 from math import sqrt
 from sklearn.metrics import mean_squared_error
 
-
 os.chdir('/home/saul/pythonWork/files')
 
 data = pd.read_csv('insurance.csv')
