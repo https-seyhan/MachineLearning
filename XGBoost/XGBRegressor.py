@@ -54,7 +54,6 @@ clf = xgboost.XGBRegressor(**param_dist)
 clf.fit(X_train, y_train, eval_metric='logloss')
 
 #print("Model :", clf)
-
 #evals_result = clf.evals_result()
 
 #print(evals_result)
