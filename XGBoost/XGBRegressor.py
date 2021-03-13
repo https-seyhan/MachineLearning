@@ -62,7 +62,6 @@ y_testpred = clf.predict(X_test)
 y_pred = clf.predict(test)
 
 dftestpred = pd.DataFrame(y_testpred)
-
 dfpred = pd.DataFrame(y_pred)
 #print(dfpred)
 
