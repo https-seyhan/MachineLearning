@@ -68,7 +68,6 @@ plt.show()
 
 #generate decision tree visualization
 dotfile = export_graphviz (reg, out_file = None, feature_names = ['Production Cost'])
-
 graph = graphviz.Source(dotfile)
 graph.render('dtree_render', view=True)
 
