@@ -36,7 +36,6 @@ print("Mergedata Columns : ",mergedata.columns)
 print("X_cat Columns ;", X_cat.columns)
 # 
 # =============================================================================
-
 FinalData = pd.concat([mergedata,X_enc], axis=1)
 print("Final Data Columns : ", FinalData.columns)
 train = FinalData[:count]
