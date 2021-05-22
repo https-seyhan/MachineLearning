@@ -14,7 +14,6 @@ X, y = mglearn.datasets.make_wave(n_samples=100)
 line = np.linspace(-3, 3, 1000, endpoint=False).reshape(-1,1)   
 
 reg = DecisionTreeRegressor(min_samples_split=3).fit(X,y)
-
 plt.figure()
 plt.plot(line, reg.predict(line), label ="decision tree")
 
