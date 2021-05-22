@@ -20,7 +20,6 @@ mergedata = data.append(testdata) # Append testdata to insurance data
 testcount = len(testdata)
 count = len(mergedata)-testcount
 X_cat = mergedata.copy()
-
 X_cat = mergedata.select_dtypes(include=['object'])
 #print("X_cat :", X_cat)
 X_enc = X_cat.copy()
