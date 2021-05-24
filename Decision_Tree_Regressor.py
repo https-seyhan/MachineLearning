@@ -55,7 +55,7 @@ X_grid = X_grid.reshape((len(X_grid), 1))
 plt.scatter(X, y, color='red')
 # plot predicted data 
 plt.plot(X_grid, reg.predict(X_grid), color = 'blue')  
-  
+ 
 # specify title 
 plt.title('Profit to Production Cost (Decision Tree Regression)')  
 # specify X axis label 
