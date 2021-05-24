@@ -43,7 +43,7 @@ def objective(theta, idx):
 def update_theta(theta, delta, alpha):
     w1, b1, w2, b2 = theta
     w1_delta, b1_delta, w2_delta, b2_delta = delta
- 
+
     w1_new = w1 - alpha*w1_delta
     b1_new = b1 - alpha*b1_delta
     w2_new = w2 - alpha*w2_delta
