@@ -36,7 +36,7 @@ def binary_cross_entropy(y, y_hat):
 def neural_network(x,theta):
     w1, b1, w2, b2 = theta
     return np.tanh(np.dot((np.tanh(np.dot(x, w1) + b1)), w2) + b2)
-  
+ 
 def objective(theta, idx):
     return squared_loss(D[1][idx], neural_network(D[0][idx], theta))
 
