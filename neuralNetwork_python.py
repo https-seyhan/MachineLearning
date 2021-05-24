@@ -65,4 +65,4 @@ print("After training RMSE :", sklearn.metrics.mean_squared_error(D[1], neural_n
 pylab.plot(rmse)
 pylab.show()
     
-   
+  
