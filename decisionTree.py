@@ -18,6 +18,7 @@ plt.figure()
 plt.plot(line, reg.predict(line), label ="decision tree")
 
 reg = LinearRegression().fit(X,y)
+
 plt.plot(line, reg.predict(line), label="linear regression")
 plt.plot(X[:, 0], y, 'o', c='k')
 plt.ylabel("Regression output")
