@@ -64,4 +64,4 @@ rmse.append(sklearn.metrics.mean_squared_error(D[1], neural_network(D[0], theta)
 print("After training RMSE :", sklearn.metrics.mean_squared_error(D[1], neural_network(D[0], theta)))
 pylab.plot(rmse)
 pylab.show()
-   
+  
