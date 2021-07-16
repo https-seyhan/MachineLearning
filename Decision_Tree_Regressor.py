@@ -60,7 +60,7 @@ plt.plot(X_grid, reg.predict(X_grid), color = 'blue')
 plt.title('Profit to Production Cost (Decision Tree Regression)')  
 # specify X axis label 
 plt.xlabel('Production Cost') 
- 
+
 # specify Y axis label 
 plt.ylabel('Profit') 
 # show the plot 
