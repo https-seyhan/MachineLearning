@@ -58,6 +58,5 @@ y_pred = clf.predict(test)
 dftestpred = pd.DataFrame(y_testpred)
 dfpred = pd.DataFrame(y_pred)
 #print(dfpred)
-
 rms = sqrt(mean_squared_error(y_test, y_testpred))
 print("RMSE:", rms)
