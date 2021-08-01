@@ -3,7 +3,7 @@
 """
 @author: saul
 """
-# Compare Linear Regression with Decision Tree Regressor
+# \Compare Linear Regression with Decision Tree Regressor
 import numpy as np
 import mglearn
 from sklearn.linear_model import LinearRegression
