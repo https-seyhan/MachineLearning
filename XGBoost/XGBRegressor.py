@@ -5,7 +5,7 @@
 """
 import pandas as pd
 import numpy as np
-import xgboost
+import xgboost # XGBoost module
 import os
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder # Encode target labels with value between 0 and n_classes-1
