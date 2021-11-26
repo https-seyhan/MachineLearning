@@ -23,7 +23,6 @@ X_cat = mergedata.copy()
 X_cat = mergedata.select_dtypes(include=['object'])
 #print("X_cat :", X_cat)
 X_enc = X_cat.copy()
-
 #=============================================================================
 # #LABEL ENCODING BLOCK
 X_enc = X_enc.apply(LabelEncoder().fit_transform) # Encode target labels with value between 0 and n_classes-1.
