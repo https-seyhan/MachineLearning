@@ -43,7 +43,6 @@ trainy = train['charges'].astype('int')
 trainx = train.drop(['charges'], axis=1)
 test = test.drop(['charges'], axis=1)
 
-
 #Cut training and Test Data
 X_train, X_test, y_train, y_test = train_test_split(trainx, trainy, test_size= 0.3)
 
