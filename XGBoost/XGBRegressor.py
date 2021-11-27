@@ -1,3 +1,5 @@
+​
+46
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -18,6 +20,7 @@ testdata = pd.read_csv('insurance_test.csv')
 
 mergedata = data.append(testdata) # Append testdata to insurance data
 testcount = len(testdata)
+
 count = len(mergedata)-testcount
 X_cat = mergedata.copy()
 X_cat = mergedata.select_dtypes(include=['object'])
