@@ -48,7 +48,7 @@ param_dist = {'n_estimators':200, 'learning_rate':0.01, 'max_depth':7}
 insurance_xg_regression = xgboost.XGBRegressor(**param_dist)
 insurance_xg_regression.fit(X_train, y_train, eval_metric='logloss')
 
-#print("Model :", clf)
+#print("Model :", insurance_xg_regression)
 #evals_result = clf.evals_result()
 y_testpred = insurance_xg_regression.predict(X_test)
 y_pred = insurance_xg_regression.predict(test)
