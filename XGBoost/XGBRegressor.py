@@ -59,5 +59,5 @@ y_pred = insurance_xg_regression.predict(test)
 df_test_pred = pd.DataFrame(y_test_pred)
 df_pred = pd.DataFrame(y_pred)
 
-rms = sqrt(mean_squared_error(y_test, y_test_pred))
+rms_xgboost = sqrt(mean_squared_error(y_test, y_test_pred))
 print("RMSE:", rms)
