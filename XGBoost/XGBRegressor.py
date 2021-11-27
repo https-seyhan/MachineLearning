@@ -46,7 +46,7 @@ test = test.drop(['charges'], axis=1)
 X_train, X_test, y_train, y_test = train_test_split(trainx, trainy, test_size= 0.3)
 # Paramater list in a dictionary
 param_dist = {'n_estimators':200, 'learning_rate':0.01, 'max_depth':7}
-insurance_xgregression = xgboost.XGBRegressor(**param_dist)
+insurance_xg_regression = xgboost.XGBRegressor(**param_dist)
 clf.fit(X_train, y_train, eval_metric='logloss')
 
 #print("Model :", clf)
