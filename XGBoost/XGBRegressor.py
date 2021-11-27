@@ -51,7 +51,7 @@ insurance_xg_regression.fit(X_train, y_train, eval_metric='logloss')
 
 #print("Model :", insurance_xg_regression)
 #evals_result = insurance_xg_regression.evals_result()
-y_testpred = insurance_xg_regression.predict(X_test)
+y_test_pred = insurance_xg_regression.predict(X_test)
 y_pred = insurance_xg_regression.predict(test)
 
 df_testpred = pd.DataFrame(y_testpred)
