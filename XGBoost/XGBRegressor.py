@@ -60,4 +60,4 @@ df_test_pred = pd.DataFrame(y_test_pred)
 df_pred = pd.DataFrame(y_pred)
 
 rms_xgboost = sqrt(mean_squared_error(y_test, y_test_pred))
-print("RMSE:", rms)
+print("RMSE:", rms_xgboost)
