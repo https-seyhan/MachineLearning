@@ -57,7 +57,7 @@ insurance_xg_regression.fit(X_train, y_train, eval_metric='logloss')
 y_test_pred = insurance_xg_regression.predict(X_test)
 y_pred = insurance_xg_regression.predict(test)
 
-df_testpred = pd.DataFrame(y_testpred)
+df_testpred = pd.DataFrame(y_test_pred)
 df_pred = pd.DataFrame(y_pred)
 
 rms = sqrt(mean_squared_error(y_test, y_testpred))
