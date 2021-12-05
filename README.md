@@ -2,4 +2,4 @@
 
 https://xgboost.readthedocs.io/en/latest/python/python_api.html
 
-XGBoots algorithm essentially is embesammle of Decisions Trees.
+XGBoots algorithm essentially is ensemble of Decisions Trees.
