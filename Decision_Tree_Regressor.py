@@ -64,7 +64,9 @@ plt.xlabel('Production Cost')
 # specify Y axis label 
 plt.ylabel('Profit') 
 # show the plot 
-plt.show() 
+plt.show() •
+2
+
 
 #generate decision tree visualization
 dotfile = export_graphviz (reg, out_file = None, feature_names = ['Production Cost'])
