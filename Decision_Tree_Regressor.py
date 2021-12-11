@@ -30,7 +30,6 @@ dataset = np.array(
 ['MMOFPS', 25000, 52000], 
 ['MMORPG', 30000, 80000] 
 ]) 
-
 # select all rows by : and column 1 
 # by 1:2 representing features 
 X= dataset[:,1:2].astype(int) #covert to integer
