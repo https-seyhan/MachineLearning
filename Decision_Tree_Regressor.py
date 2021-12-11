@@ -45,7 +45,9 @@ reg = DecisionTreeRegressor(random_state=0)
 print(reg)
 reg.fit(X,y)
 
-pred_case = reg.predict([[3750]])
+pred_case = reg.predict([[3750]])•
+2
+46
 # print the predicted price 
 print("Predicted price: % d\n"% pred_case)  
 
@@ -64,7 +66,7 @@ plt.xlabel('Production Cost')
 # specify Y axis label 
 plt.ylabel('Profit') 
 # show the plot 
-plt.show() •
+plt.show() 
 
 #generate decision tree visualization
 dotfile = export_graphviz (reg, out_file = None, feature_names = ['Production Cost'])
