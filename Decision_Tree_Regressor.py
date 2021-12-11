@@ -50,12 +50,7 @@ print(reg)
 reg.fit(X,y)
 
 pred_case = reg.predict([[3750]])
-2
-4•
-2
-46
-2
-4
+
 # print the predicted price 
 print("Predicted price: % d\n"% pred_case)  
 
