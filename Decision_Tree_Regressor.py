@@ -30,7 +30,6 @@ dataset = np.array(
 ['Sandbox', 15500, 27000], 
 ['Open-World', 16500, 30000], 
 ['MMOFPS', 25000, 52•
-
 46000], 
 ['MMORPG', 30000, 80000] 
 ])
