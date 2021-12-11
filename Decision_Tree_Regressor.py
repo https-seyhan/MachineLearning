@@ -21,8 +21,7 @@ dataset = np.array(
 ['2D Pixel Art', 3500, 8000], 
 ['2D Vector Art', 5000, 6500], 
 ['Strategy', 6000, 7000], 
-['First Person Shooter'
-46, 8000, 15000], 
+['First Person Shooter'46, 8000, 15000], 
 ['Simulator', 9500, 20000], 
 ['Racing', 12000, 21000], 
 ['RPG', 14000, 25000], 
