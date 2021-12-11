@@ -45,6 +45,8 @@ print(y)
 •
 2
 46
+2
+46
 reg = DecisionTreeRegressor(random_state=0)
 print(reg)
 reg.fit(X,y)
