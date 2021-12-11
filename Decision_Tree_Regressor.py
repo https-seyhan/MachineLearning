@@ -27,7 +27,9 @@ dataset = np.array(
 ['RPG', 14000, 25000], 
 ['Sandbox', 15500, 27000], 
 ['Open-World', 16500, 30000], 
-['MMOFPS', 25000, 52000], 
+['MMOFPS', 25000, 52•
+2
+46000], 
 ['MMORPG', 30000, 80000] 
 ])
 
@@ -49,7 +51,7 @@ pred_case = reg.predict([[3750]])
 2
 4•
 2
-46
+4
 # print the predicted price 
 print("Predicted price: % d\n"% pred_case)  
 
