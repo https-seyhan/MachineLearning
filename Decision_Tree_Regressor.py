@@ -42,7 +42,9 @@ print(X)
 # by 2 to Y representing labels 
 y = dataset[:, 2].astype(int)  
 print(y)
-
+•
+2
+46
 reg = DecisionTreeRegressor(random_state=0)
 print(reg)
 reg.fit(X,y)
@@ -50,6 +52,8 @@ reg.fit(X,y)
 pred_case = reg.predict([[3750]])
 2
 4•
+2
+46
 2
 4
 # print the predicted price 
