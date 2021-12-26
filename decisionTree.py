@@ -5,7 +5,7 @@
 """
 #Compare Linear Regression with Decision Tree Regressor
 import numpy as np
-import mglearn
+import mglearn # external module
 from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor # decision tree regressor
 from matplotlib import pyplot as plt
