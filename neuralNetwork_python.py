@@ -5,7 +5,6 @@
 """
 #Build an neutal network from scratch 
 #with autograd
-
 import autograd.numpy as np
 import autograd.numpy.random as npr
 import sklearn.metrics
