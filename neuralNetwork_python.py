@@ -3,7 +3,6 @@
 """
 @author: saul
 """
-
 #Build an neutal network from scratch 
 #with autograd
 import autograd.numpy as np
