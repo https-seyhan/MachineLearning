@@ -32,7 +32,6 @@ X_enc = X_enc.apply(LabelEncoder().fit_transform) # Encode target labels with va
 #print("X_enc :", X_enc)
 mergedata = mergedata.drop(X_cat.columns, axis=1)
 ##END LABEL ENCODING BLOCK
-
 print("Mergedata Columns : ",mergedata.columns)
 print("X_cat Columns ;", X_cat.columns)
 
