@@ -3,7 +3,6 @@
 """
 @author: saul
 """
-
 #Compare Linear Regression with Decision Tree Regressor
 import numpy as np
 import mglearn # external module
