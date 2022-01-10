@@ -50,6 +50,7 @@ def update_theta(theta, delta, alpha):
     new_theta = (w1_new, b1_new, w2_new, b2_new)
     return new_theta
 
+#grad
 grad_objective = grad(objective)
 epochs = 10 # number of iterations
 
