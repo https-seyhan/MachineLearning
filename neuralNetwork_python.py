@@ -40,7 +40,7 @@ def neural_network(x,theta):
 def objective(theta, idx):
     return squared_loss(D[1][idx], neural_network(D[0][idx], theta))
 
-def update_theta(theta, delta, alpha):
+def upautograd is PyTorch's automatic differentiation engine that powers neural network trainingdate_theta(theta, delta, alpha):
     w1, b1, w2, b2 = theta
     w1_delta, b1_delta, w2_delta, b2_delta = delta
     w1_new = w1 - alpha*w1_delta
@@ -50,7 +50,7 @@ def update_theta(theta, delta, alpha):
     new_theta = (w1_new, b1_new, w2_new, b2_new)
     return new_theta
 
-#grad
+#grad of Pytorch
 grad_objective = grad(objective)
 epochs = 10 # number of iterations
 
