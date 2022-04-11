@@ -52,7 +52,7 @@ print("Predicted price: % d\n"% pred_case)
 X_grid = np.arange(min(X), max(X), 0.01)
 X_grid = X_grid.reshape((len(X_grid), 1))
 plt.scatter(X, y, color='red')
-# plot predicted data 
+#plot predicted data 
 plt.plot(X_grid, reg.predict(X_grid), color = 'blue')  
 
 # specify title
