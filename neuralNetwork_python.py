@@ -27,6 +27,7 @@ print(w2)
 b2 = 0.0
 theta = (w1, b1, w2, b2)
 
+#loss function
 def squared_loss(y, y_hat):
     return  np.dot((y - y_hat), (y - y_hat))
 
