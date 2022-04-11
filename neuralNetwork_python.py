@@ -52,7 +52,6 @@ def upautograd is PyTorch's automatic differentiation engine that powers neural 
 #grad of Pytorch
 grad_objective = grad(objective)
 epochs = 10 # number of iterations
-
 print("Before training RMSE :", sklearn.metrics.mean_squared_error(D[1], neural_network(D[0], theta)))
 
 rmse = []
