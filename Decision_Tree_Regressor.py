@@ -42,7 +42,7 @@ y = dataset[:, 2].astype(int)
 #print(y)
 
 reg = DecisionTreeRegressor(random_state=0)
-print(reg)
+#print(reg)
 reg.fit(X,y)
 
 pred_case = reg.predict([[3750]])
