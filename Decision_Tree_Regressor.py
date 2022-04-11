@@ -39,7 +39,7 @@ X= dataset[:,1:2].astype(int) #covert to integer
 # select all rows by : and column 2 
 # by 2 to Y representing labels 
 y = dataset[:, 2].astype(int)  
-print(y)
+#print(y)
 
 reg = DecisionTreeRegressor(random_state=0)
 print(reg)
