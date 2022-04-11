@@ -22,7 +22,6 @@ print((w1[1:2]))
 b1 = npr.rand(layer1_units)
 print(len(b1))
 w2 = npr.rand(layer1_units, layer2_units)
-
 b2 = 0.0
 theta = (w1, b1, w2, b2)
 
