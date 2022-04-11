@@ -34,7 +34,7 @@ dataset = np.array(
 # select all rows by : and column 1 
 # by 1:2 representing features 
 X= dataset[:,1:2].astype(int) #covert to integer
-#print(X)
+print(X)
 
 # select all rows by : and column 2 
 # by 2 to Y representing labels 
